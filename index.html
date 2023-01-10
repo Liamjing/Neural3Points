@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<!-- this html is inspired by  https://xbpeng.github.io/projects/ASE/index.html -->
+
+<head>
+    <title>Neural3Points: Learning to Generate Physically Realistic Full-body Motion for Virtual Reality Users</title>
+
+    <style>
+        .div-plain {
+            padding-right: 15%;
+            padding-left: 15%;
+            font-size: medium;
+        }
+        .div-grey {
+            padding-left: 5%;
+            /* padding-right: 5%; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: medium;
+            background-color: #f2f2f2;
+        }
+        
+    </style>
+
+    
+</head>
+
+<body>
+
+    <div class="div-plain">
+    <center>
+            <h1>Neural3Points: Learning to Generate Physically Realistic Full-body Motion for Virtual Reality Users</h1>
+    </center>
+        <td>
+            <center>
+                Computer Graphics Forum (SCA 2022)<br>
+                <br>
+                <nobr> <a>Yongjing Ye</a></nobr> (1,2)&emsp;&emsp; <nobr> <a href='http://libliu.info/'>Libin Liu†</a>
+                    (3)</nobr> &emsp;&emsp; <nobr> <a>Lei Hu</a>
+                    (1,2)</nobr>
+                &emsp;&emsp; <nobr><a href='https://people.ucas.ac.cn/~xiashihong'>Shihong Xia†</a> (1,2)</nobr> <br>
+                <br>
+                <nobr>(1) Institute of Computing Technology, Chinese Academy of Sciences </nobr><br>
+                <nobr>(2) University of Chinese Academy of Sciences </nobr><br>
+                <nobr>(3) Peking University </nobr><br>
+                <br>
+                <img style="vertical-align:middle" src="static/Teaser2_fin.png" width="100%" height="inherit" />
+            </center>
+        </td>
+
+        <br>
+
+        <td>
+            <hr>
+            <h3 style="margin-bottom:10px;">Abstract</h3>
+            Animating an avatar that reflects a user's action in the VR world enables natural interactions with the
+            virtual environment. It has the potential to allow remote users to communicate and collaborate in a way
+            as if they met in person. However, a typical VR system provides only a very sparse set of up to three
+            positional sensors, including a head-mounted display (HMD) and optionally two hand-held controllers,
+            making the estimation of the user's full-body movement a difficult problem. In this work, we present a
+            data-driven physics-based method for predicting the realistic full-body movement of the user according to the
+            transformations of these VR trackers and simulating an avatar character to mimic such user actions in the
+            virtual world in real-time. We train our system using reinforcement learning with carefully designed
+            pretraining processes to ensure the success of the training and the quality of the simulation.
+            We demonstrate the effectiveness of the method with an extensive set of examples.
+
+        </td>
+
+        <td>
+            <h3> Paper: [<a href="static/author_version.pdf">PDF</a>] &nbsp; &nbsp; &nbsp; Video: [<nobr><a
+                        href="https://www.youtube.com/watch?v=Y293EVW5jfM">Youtube</a> | <a
+                        href="https://www.bilibili.com/video/BV1KB4y1j7vg/"> Bilibili</a>]</nobr>
+            </h3>
+        </td>
+
+
+        <br>
+        <br>
+    </div>
+    <div class = "div-plain">
+    <div class="div-grey" >
+        <td>
+            <p style="font-size:large;">
+                From reality to simulation:
+            </p>
+        </td>
+
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/gif/main.gif" width="40%" height="inherit" />
+                </p>
+            </center>
+        </td>
+
+        <td>
+            <p style="font-size:large;">
+                Mirror secene:
+            </p>
+        </td>
+
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/gif/mirror.gif" width="29%"
+                        height="inherit" />
+                </p>
+            </center>
+        </td>
+
+        <td>
+            <p style="font-size:large;">
+                Mini games:
+            </p>
+        </td>
+
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/gif/game1.gif" width="29%" height="inherit" />
+                    <img style="vertical-align:middle" src="static/gif/game2.gif" width="29%" height="inherit" />
+                </p>
+            </center>
+        </td>
+
+        <td>
+            <p style="font-size:large;">
+                Physical interactions:
+            </p>
+        </td>
+
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/gif/interactions.gif" width="29%" height="inherit" />
+                </p>
+            </center>
+        </td>
+
+        <td>
+            <p style="font-size:large;">
+                One-Point tracking with HMD:
+            </p>
+        </td>
+
+    
+
+        <td>
+            <center>
+                <p>
+                    <img style="vertical-align:middle" src="static/gif/Onept.gif" width="29%" height="inherit" />
+                </p>
+            </center>
+
+        </td>
+
+
+    </div>
+    </div>
+    <!-- <iframe width="884" height="497" src="https://www.youtube.com/embed/ELZ7m4rLCgk" title="[SIGAsia 22] ControlVAE: Model-Based Learning of Generative Controllers for Physics-Based Characters" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+
+
+    <!-- </div> -->
+</body>
+
+
+
+</html>
